@@ -1,0 +1,30 @@
+_id: req_fbba3894492d40378debfc0539a824f8
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e0787826a8b49f2
+modified: 1648024710075
+created: 1648024710075
+url: "{{ base_url }}/registries/{{ registryName }}/aliases/{{ key }}"
+name: Update an alias
+description: Update an alias by key from a dedicated alias registry
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "type": "string",
+      "value": "my-alias"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1648024710075
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

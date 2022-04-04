@@ -1,0 +1,24 @@
+_id: req_3195e2f462a64e4f9f79834ce9f9b159
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e078782e5651c68
+modified: 1648024710069
+created: 1648024710069
+url: "{{ base_url }}/stores/{{ storeName }}/keys/{{ id }}"
+name: Get key by ID
+description: Retrieve a key by its ID
+method: GET
+body: {}
+parameters:
+  - name: deleted
+    disabled: true
+    value: "true"
+headers: []
+authentication: {}
+metaSortKey: -1648024710069
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

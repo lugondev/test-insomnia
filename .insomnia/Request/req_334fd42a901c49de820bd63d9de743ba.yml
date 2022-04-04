@@ -1,0 +1,21 @@
+_id: req_334fd42a901c49de820bd63d9de743ba
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e078782e5651c68
+modified: 1648024710067
+created: 1648024710067
+url: "{{ base_url }}/stores/{{ storeName }}/keys/{{ id }}/restore"
+name: Restore a soft-deleted key
+description: Restore a soft-deleted key by its ID
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648024710067
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

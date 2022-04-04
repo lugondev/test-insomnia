@@ -1,0 +1,32 @@
+_id: req_079d3500afcb48a3a39212a2e6ec8b88
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e078782e5651c68
+modified: 1648051171900
+created: 1648024710068
+url: "{{ base_url }}/stores/{{ storeName }}/keys/{{ id }}"
+name: Create new Key
+description: Create a new key pair using the specified Ecliptic Curve and Signing algorithm
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "curve": "secp256k1",
+      "signingAlgorithm": "ecdsa",
+      "tags": {}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+    id: pair_0852d08eb00b4aaa879217bd2cf08fb3
+authentication: {}
+metaSortKey: -1648024710068
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

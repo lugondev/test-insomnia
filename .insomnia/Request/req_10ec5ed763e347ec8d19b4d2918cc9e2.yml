@@ -1,0 +1,21 @@
+_id: req_10ec5ed763e347ec8d19b4d2918cc9e2
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e078782953e3cc7
+modified: 1648024710073
+created: 1648024710073
+url: "{{ base_url }}/stores/{{ storeName }}/ethereum/{{ address }}/destroy"
+name: Destroy Ethereum Account
+description: Hard delete an Ethereum Account, cannot be recovered
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648024710073
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

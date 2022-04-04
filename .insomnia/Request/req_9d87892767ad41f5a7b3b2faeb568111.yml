@@ -1,0 +1,21 @@
+_id: req_9d87892767ad41f5a7b3b2faeb568111
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e078782103d9f3f
+modified: 1648024710076
+created: 1648024710076
+url: "{{ base_url }}/registries/{{ registryName }}"
+name: Deletes a registry
+description: Deletes a registry and all its aliases
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648024710076
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

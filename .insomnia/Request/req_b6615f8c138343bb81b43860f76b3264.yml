@@ -1,0 +1,21 @@
+_id: req_b6615f8c138343bb81b43860f76b3264
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e0787826a8b49f2
+modified: 1648024710076
+created: 1648024710076
+url: "{{ base_url }}/registries/{{ registryName }}/aliases/{{ key }}"
+name: Delete an alias
+description: Delete an alias of a key from a dedicated alias registry
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648024710076
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

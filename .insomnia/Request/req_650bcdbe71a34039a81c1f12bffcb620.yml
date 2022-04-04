@@ -1,0 +1,42 @@
+_id: req_650bcdbe71a34039a81c1f12bffcb620
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e07878218fdc5ee
+modified: 1648024710078
+created: 1648024710078
+url: "{{ base_url }}/ethereum/verify-typed-data"
+name: Verify typed data signature (EIP-712)
+description: Verify the signature of an Ethereum typed data using format defined at EIP-712
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "address": "0x905B88EFf8Bda1543d4d6f4aA05afef143D27E18",
+      "data": {
+        "domainSeparator": {
+          "chainID": 1,
+          "name": "MyDApp",
+          "salt": "some-random-string",
+          "verifyingContract": "0x905B88EFf8Bda1543d4d6f4aA05afef143D27E18",
+          "version": "v1.0.0"
+        },
+        "message": {},
+        "messageType": "Mail",
+        "types": {}
+      },
+      "signature": "0x6019a3c8..."
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1648024710078
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

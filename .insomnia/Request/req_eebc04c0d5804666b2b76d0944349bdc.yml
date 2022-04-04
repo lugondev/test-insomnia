@@ -1,0 +1,27 @@
+_id: req_eebc04c0d5804666b2b76d0944349bdc
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e0787821e3732ae
+modified: 1648024710065
+created: 1648024710065
+url: "{{ base_url }}/stores/{{ storeName }}/secrets/{{ id }}"
+name: Get a secret by id
+description: Retrieve secret information by ID
+method: GET
+body: {}
+parameters:
+  - name: version
+    disabled: true
+    value: string
+  - name: deleted
+    disabled: true
+    value: "true"
+headers: []
+authentication: {}
+metaSortKey: -1648024710065
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

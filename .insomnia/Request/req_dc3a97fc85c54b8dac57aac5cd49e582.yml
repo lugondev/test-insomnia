@@ -1,0 +1,31 @@
+_id: req_dc3a97fc85c54b8dac57aac5cd49e582
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e07878218fdc5ee
+modified: 1648024710078
+created: 1648024710078
+url: "{{ base_url }}/ethereum/verify-message"
+name: Verify message signature (EIP-191)
+description: Verify the signature of a message signed using standard format EIP-191
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "address": "0x905B88EFf8Bda1543d4d6f4aA05afef143D27E18",
+      "data": "0xfeaeee...",
+      "signature": "0x6019a3c8..."
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1648024710078
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

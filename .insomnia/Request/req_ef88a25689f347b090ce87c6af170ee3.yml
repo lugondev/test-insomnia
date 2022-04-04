@@ -1,0 +1,32 @@
+_id: req_ef88a25689f347b090ce87c6af170ee3
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e078782953e3cc7
+modified: 1648528014733
+created: 1648024710074
+url: "{{ base_url }}/stores/{{ storeName }}/ethereum"
+name: Create an Ethereum Account
+description: Create a new ECDSA Secp256k1 key representing an Ethereum Account
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "keyId": "account-11",
+      "tags": {
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+    id: pair_bf45a9c52f5a4bcfae9235f399183f3a
+authentication: {}
+metaSortKey: -1648024710074
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

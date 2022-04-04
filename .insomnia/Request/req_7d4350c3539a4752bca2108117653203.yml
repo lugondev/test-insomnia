@@ -1,0 +1,35 @@
+_id: req_7d4350c3539a4752bca2108117653203
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e078782953e3cc7
+modified: 1648050382464
+created: 1648024710074
+url: "{{ base_url }}/stores/{{ storeName }}/ethereum/import"
+name: Import an Ethereum Account
+description: Import an ECDSA Secp256k1 key representing an Ethereum account
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "keyId": "my-imported-key-account",
+      "privateKey": "0x56202652FDFFD802B7252A456DBD8F3ECC0352BBDE76C23B40AFE8AEBD714E2E",
+      "tags": {
+        "property1": "string",
+        "property2": "string"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+    id: pair_2c81c115836c4a94bf2886aa70f9a1ed
+authentication: {}
+metaSortKey: -1648024710074
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

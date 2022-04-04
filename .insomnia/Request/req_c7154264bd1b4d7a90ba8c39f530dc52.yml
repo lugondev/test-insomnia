@@ -1,0 +1,34 @@
+_id: req_c7154264bd1b4d7a90ba8c39f530dc52
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e07878218fdc5ee
+modified: 1648024910252
+created: 1648024710077
+url: "{{ base_url }}/keys/verify-signature"
+name: Verify key signature
+description: Verify if signature data was signed by a specific key
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "curve": "secp256k1",
+      "data": "bXkgc2lnbmVkIG1lc3NhZ2U=",
+      "publicKey": "Cjix/fS3WdqKGKabagBNYwcClan5aImoFpnjSF0cqJs=",
+      "signature": "tjThYhKSFSKKvsR8Pji6EJ+FYAcf8TNUdAQnM7MSwZEEaPvFhpr1SuGpX5uOcYUrb3pBA8cLk8xcbKtvZ56qWA==",
+      "signingAlgorithm": "ecdsa"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+    id: pair_4a1018e6b234469dbf19c7e66eefa955
+authentication: {}
+metaSortKey: -1648024710077
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

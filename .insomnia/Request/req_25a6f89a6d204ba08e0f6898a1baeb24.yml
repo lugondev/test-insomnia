@@ -1,0 +1,21 @@
+_id: req_25a6f89a6d204ba08e0f6898a1baeb24
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e0787821e3732ae
+modified: 1648024710052
+created: 1648024710052
+url: "{{ base_url }}/stores/{{ storeName }}/secrets/{{ id }}/restore"
+name: Restore a soft-deleted secret
+description: Restore a previously soft-deleted secret by ID
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648024710052
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_caa01988fc4441ae8e87058f15ad80d9
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e078782e5651c68
+modified: 1648049606804
+created: 1648024710066
+url: "{{ base_url }}/stores/{{ storeName }}/keys/{{ id }}/sign"
+name: Sign random payload
+description: Sign a random payload using the selected key
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "data": "bXkgc2lnbmVkIG1lc3NhZ2U="
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+    id: pair_884e5c8f4fca421cb3b5f409d704297c
+authentication: {}
+metaSortKey: -1648024710066
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

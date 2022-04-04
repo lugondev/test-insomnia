@@ -1,0 +1,21 @@
+_id: req_f9d2256a6e174faeb37d2974bb25a83d
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e0787826a8b49f2
+modified: 1648024710076
+created: 1648024710076
+url: "{{ base_url }}/registries/{{ registryName }}/aliases/{{ key }}"
+name: Get an alias
+description: Get an alias by key from a dedicated alias registry
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648024710076
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

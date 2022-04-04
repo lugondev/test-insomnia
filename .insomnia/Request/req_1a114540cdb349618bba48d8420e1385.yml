@@ -1,0 +1,31 @@
+_id: req_1a114540cdb349618bba48d8420e1385
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e07878218fdc5ee
+modified: 1648024710079
+created: 1648024710079
+url: "{{ base_url }}/ethereum/ec-recover"
+name: EC Recover
+description: Recover an Ethereum sender address from a signature of the format
+  [R || S || V] where V is 0 or 1
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "data": "0xfeaeee...",
+      "signature": "0x6019a3c8..."
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1648024710079
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_a8e8d942c30a464ea262723b75af4714
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e0787821e3732ae
+modified: 1648024710064
+created: 1648024710064
+url: "{{ base_url }}/stores/{{ storeName }}/secrets/{{ id }}"
+name: Delete a secret by id
+description: Soft delete secret by id. It can be recovered
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648024710064
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

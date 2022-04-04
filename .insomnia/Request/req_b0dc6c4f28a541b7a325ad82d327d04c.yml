@@ -1,0 +1,21 @@
+_id: req_b0dc6c4f28a541b7a325ad82d327d04c
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e078782103d9f3f
+modified: 1648024710077
+created: 1648024710077
+url: "{{ base_url }}/registries/{{ registryName }}"
+name: Gets an alias registry
+description: Gets an alias registry
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648024710077
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

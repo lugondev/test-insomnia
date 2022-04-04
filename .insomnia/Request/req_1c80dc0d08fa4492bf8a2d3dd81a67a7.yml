@@ -1,0 +1,21 @@
+_id: req_1c80dc0d08fa4492bf8a2d3dd81a67a7
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e078782103d9f3f
+modified: 1648024710077
+created: 1648024710077
+url: "{{ base_url }}/registries/{{ registryName }}"
+name: Creates an alias registry
+description: Creates an alias registry
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648024710077
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

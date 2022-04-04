@@ -1,0 +1,30 @@
+_id: req_24a7843894f64c0b8eb17aeda8146f61
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e0787821e3732ae
+modified: 1648024710066
+created: 1648024710066
+url: "{{ base_url }}/stores/{{ storeName }}/secrets"
+name: List secrets
+description: List of secrets ids allocated in the targeted Store
+method: GET
+body: {}
+parameters:
+  - name: deleted
+    disabled: true
+    value: "true"
+  - name: limit
+    disabled: true
+    value: "0"
+  - name: page
+    disabled: true
+    value: "0"
+headers: []
+authentication: {}
+metaSortKey: -1648024710066
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

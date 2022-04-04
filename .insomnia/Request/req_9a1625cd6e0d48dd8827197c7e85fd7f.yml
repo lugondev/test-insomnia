@@ -1,0 +1,24 @@
+_id: req_9a1625cd6e0d48dd8827197c7e85fd7f
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e078782953e3cc7
+modified: 1648024710074
+created: 1648024710074
+url: "{{ base_url }}/stores/{{ storeName }}/ethereum/{{ address }}"
+name: Get an Ethereum Account
+description: Fetch an Ethereum Account data by its address
+method: GET
+body: {}
+parameters:
+  - name: deleted
+    disabled: true
+    value: "true"
+headers: []
+authentication: {}
+metaSortKey: -1648024710074
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

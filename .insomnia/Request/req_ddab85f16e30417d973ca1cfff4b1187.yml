@@ -1,0 +1,30 @@
+_id: req_ddab85f16e30417d973ca1cfff4b1187
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e078782e5651c68
+modified: 1648024710069
+created: 1648024710069
+url: "{{ base_url }}/stores/{{ storeName }}/keys"
+name: List Key ids
+description: List key's IDs allocated on targeted Store
+method: GET
+body: {}
+parameters:
+  - name: limit
+    disabled: true
+    value: "0"
+  - name: page
+    disabled: true
+    value: "0"
+  - name: deleted
+    disabled: true
+    value: "true"
+headers: []
+authentication: {}
+metaSortKey: -1648024710069
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

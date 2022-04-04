@@ -1,0 +1,38 @@
+_id: req_b001c67e0c824602bd0c58bd63e278c6
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e078782953e3cc7
+modified: 1648024710070
+created: 1648024710070
+url: "{{ base_url }}/stores/{{ storeName }}/ethereum/{{ address }}/sign-typed-data"
+name: Sign Typed Data (EIP-712)
+description: Sign Typed Data, following EIP-712, using identified Ethereum Account
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "domainSeparator": {
+        "chainID": 1,
+        "name": "MyDApp",
+        "salt": "some-random-string",
+        "verifyingContract": "0x905B88EFf8Bda1543d4d6f4aA05afef143D27E18",
+        "version": "v1.0.0"
+      },
+      "message": {},
+      "messageType": "Mail",
+      "types": {}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1648024710070
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_352e93ee038941f7bc94a4ff08e1100f
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e0787826a8b49f2
+modified: 1648024813598
+created: 1648024710076
+url: "{{ base_url }}/registries/{{ registryName }}/aliases/{{ key }}"
+name: Creates an alias
+description: Create an alias of a key in a dedicated alias registry
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "type": "string",
+      "value": "my-alias"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+    id: pair_23d203f94d4e48eea3658e45daf16db3
+authentication: {}
+metaSortKey: -1648024710076
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

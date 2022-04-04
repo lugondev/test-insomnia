@@ -1,0 +1,18 @@
+_id: env_6c4c01cd4d8944f3b9655c2fd05d7892
+type: Environment
+parentId: env_b8c23fa8dc41cdf1101d0917987871a698f3f1bb
+modified: 1648051785427
+created: 1648024766562
+name: BAmchain
+data:
+  base_path: /
+  scheme: http
+  host: https://bamchain.xyz:8080
+dataPropertyOrder:
+  "&":
+    - base_path
+    - scheme
+    - host
+color: null
+isPrivate: false
+metaSortKey: 1648024710133

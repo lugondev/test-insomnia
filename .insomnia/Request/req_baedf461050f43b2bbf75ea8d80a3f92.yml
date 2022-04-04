@@ -1,0 +1,21 @@
+_id: req_baedf461050f43b2bbf75ea8d80a3f92
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e078782e5651c68
+modified: 1648024710067
+created: 1648024710067
+url: "{{ base_url }}/stores/{{ storeName }}/keys/{{ id }}/destroy"
+name: Destroy a Key
+description: Permanently delete a key by ID
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648024710067
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,36 @@
+_id: req_a3f026a7d9d241ab8ecd1d05db0c70aa
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e078782953e3cc7
+modified: 1648528023794
+created: 1648024710071
+url: "{{ base_url }}/stores/{{ storeName }}/ethereum/{{ address
+  }}/sign-quorum-private-transaction"
+name: Sign Quorum private transaction
+description: Sign a Quorum private transaction using the identified Ethereum Account
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "data": "0xfeaeee...",
+      "gasLimit": "0x5208",
+      "gasPrice": "0x0",
+      "nonce": "0x1",
+      "to": "0x905B88EFf8Bda1543d4d6f4aA05afef143D27E18",
+      "value": "0x1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+    id: pair_a413b8c5db81496da81b9cdd7aacf489
+authentication: {}
+metaSortKey: -1648024710071
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,42 @@
+_id: req_11a3056968584b5d820ea8e42ceeef93
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e078782953e3cc7
+modified: 1648024710072
+created: 1648024710072
+url: "{{ base_url }}/stores/{{ storeName }}/ethereum/{{ address
+  }}/sign-eea-transaction"
+name: Sign EEA transaction
+description: Sign an EEA transaction using the identified Ethereum Account
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "chainID": "0x1 (mainnet)",
+      "data": "0xfeaeee...",
+      "gasLimit": "0x5208",
+      "gasPrice": "0x0",
+      "nonce": "0x1",
+      "privacyGroupId": "A1aVtMxLCUHmBVHXoZzzBgPbW/wj5axDpW9X8l91SGo=",
+      "privateFor": [
+        "A1aVtMxLCUHmBVHXoZzzBgPbW/wj5axDpW9X8l91SGo=",
+        "B1aVtMxLCUHmBVHXoZzzBgPbW/wj5axDpW9X8l91SGo="
+      ],
+      "privateFrom": "A1aVtMxLCUHmBVHXoZzzBgPbW/wj5axDpW9X8l91SGo=",
+      "to": "0x905B88EFf8Bda1543d4d6f4aA05afef143D27E18",
+      "value": "0x1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1648024710072
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

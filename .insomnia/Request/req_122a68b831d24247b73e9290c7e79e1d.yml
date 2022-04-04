@@ -1,0 +1,31 @@
+_id: req_122a68b831d24247b73e9290c7e79e1d
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e0787821e3732ae
+modified: 1648049696040
+created: 1648024710065
+url: "{{ base_url }}/stores/{{ storeName }}/secrets/{{ id }}"
+name: Create a secret
+description: Create new secret on selected Store
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "tags": {},
+      "value": "my-value"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+    id: pair_df9be46b21bc4808828c451a5017796f
+authentication: {}
+metaSortKey: -1648024710065
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_886b71b0f2cd473eae86049425a22c44
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e0787821e3732ae
+modified: 1648024710063
+created: 1648024710063
+url: "{{ base_url }}/stores/{{ storeName }}/secrets/{{ id }}/destroy"
+name: Destroy a secret by ID
+description: Permanently delete a secret by ID
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648024710063
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

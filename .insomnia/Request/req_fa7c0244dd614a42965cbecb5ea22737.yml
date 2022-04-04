@@ -1,0 +1,21 @@
+_id: req_fa7c0244dd614a42965cbecb5ea22737
+type: Request
+parentId: fld_wrk_ac578ec694104870881c74d30e078782953e3cc7
+modified: 1648024710073
+created: 1648024710073
+url: "{{ base_url }}/stores/{{ storeName }}/ethereum/{{ address }}"
+name: Delete Ethereum Account
+description: Soft delete an Ethereum Account, can be recovered
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648024710073
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
